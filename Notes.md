@@ -5,9 +5,17 @@
 1. Update level-3 mapped files using automated OPENDAP calls using PY
  - Code created: "/Users/imars_mbp2/Documents/Default Project/download_obdaac_l3m_8day.py"
  - This code can run for subsetted or full-res files
+ - (default is subsetted, set "--full" flag for full files)
+ - Example call:
+   python3 download_obdaac_l3m_8day.py --full \
+  --start 2024-01-01 --end 2024-01-31 \
+  --products chlor_a Rrs_443 adg_443 \
+  --outdir "/Users/imars_mbp2/Documents/Default Project/obdaac_full"
+   
  - For now (MBON meeting), use already downloaded files.
  - In the future, updates are best carried out using this new script (faster, less input needed)
- - Next:
+
+#### Next:
  - Ask OpenCode to create a py routine to compare time series of each variable.
  - Go one product at a time and create a plot of time series, differences
  - Ask OC for guidance; like the best way to compare outputs from different sensors
