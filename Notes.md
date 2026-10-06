@@ -6,7 +6,7 @@
  - Code created: "/Users/imars_mbp2/Documents/Default Project/download_obdaac_l3m_8day.py"
  - This code can run for subsetted or full-res files
  - (default is subsetted, set "--full" flag for full files)
- - Example call:
+ - Example call:  
    python3 download_obdaac_l3m_8day.py --full \
   --start 2024-01-01 --end 2024-01-31 \
   --products chlor_a Rrs_443 adg_443 \
