@@ -15,6 +15,17 @@
  - For now (MBON meeting), use already downloaded files.
  - In the future, updates are best carried out using this new script (faster, less input needed)
 
+ - For full global OC-CCI downloads (on Mac Mini):
+ - Use "DL_oc_cci_chl.sh"
+ - Or "DL_oc_cci_rrs.sh"
+ - Or "DL_oc_cci_iop.sh"
+
+ - New Method:
+ - "download_cci_rrs_V2.sh" - Downloads only needed bands (chlor_a, adg_443, Rrs at 5 vis wavelengths)
+ - Extracts OC-CCI data at regions defined in Excel sheet (need to specify)
+ - Can set "full" tag to get global files, but these files are big
+ - Not sure which is easiest; subsetted files are easier to move around
+
 #### Next:
  - Ask OpenCode to create a py routine to compare time series of each variable.
  - Go one product at a time and create a plot of time series, differences
