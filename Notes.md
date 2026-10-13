@@ -23,8 +23,8 @@
  - New Method:
  - "download_cci_rrs_V2.sh" - Downloads only needed bands (chlor_a, adg_443, Rrs at 5 vis wavelengths)
  - Extracts OC-CCI data at regions defined in Excel sheet (need to specify)
- - Can set "full" tag to get global files, but these files are big
- - Not sure which is easiest; subsetted files are easier to move around
+ - Can set "full" tag to get global files, but global files exceed the download limits
+ - Continue to use subsetted files
 
 #### Next:
  - Ask OpenCode to create a py routine to compare time series of each variable.
