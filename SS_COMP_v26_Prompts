@@ -1,0 +1,20 @@
+
+Prompt
+I want to compare data from several NASA sensors and the oc-cci dataset from ESA. Let's start with chlor_a. 
+I want to compare AQUA-MODIS, SNPP-VIIRS, NOAA20-VIIRS, PACE-OCI and OC-CCI. 
+For all but OC-CCI, the global files will need to be subsetted to the "GOM" region.
+I want to compare these sensors from 2018 to 2026 to investigate how these sensors compare over time.
+I would like a plot with each sensor as a different color and a summary table. 
+
+
+Excel file with geographic limits
+"/Users/imars_mbp2/Library/CloudStorage/Box-Box/SS_EXT_LOCS_v26.xlsx"
+
+Path to files:
+"https://github.com/dotis/OC_PROCESS_vPY/blob/main/Image_Paths.md"
+
+
+Model:
+Muse Spark 1.3 Free (need to try different ones; some time out)
+
+
