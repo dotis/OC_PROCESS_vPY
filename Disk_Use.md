@@ -1,6 +1,8 @@
 ### IMaRS OC processing disk use
 #### /manglillo:/srv/pgs:
 
+As of 10/15/26   
+
 Divided into regions
 1. gom: 2.4T
 2. seus: 920G
