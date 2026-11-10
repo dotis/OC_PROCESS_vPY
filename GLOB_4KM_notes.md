@@ -23,7 +23,7 @@ python3 fetch_obdata.py --res MO --start 202503 --end 202504 -p chlor_a --sensor
 python3 fetch_obdata.py --res 8D --start 2025-06-01 --end 2025-06-15 -p Rrs_412 --dry-run  
 
 
-Design points worth knowing:
+Design points worth knowing:  
 Suite inference from the field name: chlor_a → CHL, Rrs_xxx → RRS (→ AOP for PACE)  
 adg_/aph_/bb_/kd_ → IOP, sst/SST4, PAR, PIC; --suite BGC etc. always overrides.  
 
